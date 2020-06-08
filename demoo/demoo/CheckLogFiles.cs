@@ -82,7 +82,7 @@ namespace demoo
                 //set url of driver 
                 driver.Url = "http://google.com";
 
-                //finding element with the Name "q" and entering "Regression Testing" there, after that enter is pressed (keyboard)
+                //finding element with the Name "q" and entering "GeeksForGeeks" there, after that enter is pressed (keyboard)
                 driver.FindElement(By.Name("q")).SendKeys(values[1] + Keys.Enter);
 
                 // press browser's back button
